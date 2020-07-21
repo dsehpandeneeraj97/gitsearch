@@ -1,0 +1,9 @@
+<div> 
+    <mat-nav-list>
+      <mat-list-item *ngFor="let i of repoList" >
+         <a matLine>{{i.name_with_namespace}}</a>
+      </mat-list-item>
+    </mat-nav-list>
+  </div>
+  <router-outlet></router-outlet>
+

@@ -1,0 +1,5 @@
+<mat-form-field class="example-full-width">
+    <mat-label>Search</mat-label>
+    <input matInput placeholder="title" name="searchQuery" [(ngModel)]="searchQuery" />
+  </mat-form-field>
+  <button href="#!" class=" submit btn btn-dark btn-md my-0 ml-sm-2" type="submit" (click)= "searchRepo()" routerLink="/searchview">Search</button>
